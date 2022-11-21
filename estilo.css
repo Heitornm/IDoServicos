@@ -232,6 +232,7 @@ form label {
     color: #2e2809;
     font-weight: bold;
     margin-top: 1.5em;
+    width: 50%;
 }
 
 div#faleconosco form {
