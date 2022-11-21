@@ -1,0 +1,174 @@
+@charset "UTF-8";
+header {
+    width: 100%;
+    text-align: center;
+    color: rgba(49, 41, 7, 0.548);
+    text-shadow: 1px 1px 1px rgba(250, 207, 14, 0.247);
+}
+
+body{
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    height: auto;
+    background-color: rgba(0, 247, 255, 0.541);
+    background-image: url('trabalhador.png');
+    
+    
+}
+
+
+section h1 {
+    font-weight: bolder;
+    text-align: left;
+    color: #2e2809;
+    text-indent: 3em;
+    text-shadow: 2px 2px 2px rgba(59, 50, 8, 0.8);
+}
+h4 {
+    text-align: right;
+    color: rgb(255, 253, 228);
+    padding-top: 1.5%;
+    padding-right: 12%;
+    padding-left: 12%;
+    text-shadow: 2px 2px 3px rgba(59, 50, 8, 0.747);
+}
+p {
+    text-indent: 40px;
+    text-align: justify;
+    padding: 70px;
+    padding-right: 12%;
+    padding-left: 12%;
+    background-color: rgb(247, 247, 206);
+    text-shadow: 1px 1px 1px solid green;
+    
+}
+
+div#corpo {
+    display: block;
+    margin-left: 1.5%;
+    width: 97%;
+    box-shadow: 3px 3px 5px black;
+    background-color: rgb(243, 239, 176, 0.9);
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.555);
+    font-size: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+nav#menu h1 {
+    text-align: left;
+    vertical-align: auto;
+    padding-top: 10px;
+    margin-bottom: -5px;
+}
+nav#menu ul a{
+    list-style: none;   
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    margin-left: -17%;
+    margin-right: 10%;
+    
+}
+nav#menu li{
+    display: inline-block;
+    position: relative;
+    margin-left: -5px;
+    background-color:  rgba(240, 204, 42, 0.411);
+    padding-left: 1em;
+    padding-right: 1em;
+
+    
+}
+
+nav#menu li:hover {
+    background-color: rgba(221, 217, 161, 0.767);
+    color: rgb(255, 253, 228);
+}
+
+section div#quemsomos {
+    display: block;
+    width: 90%;
+    position: relative;
+    color: rgb(49, 41, 7);
+    box-shadow: 3px 3px 5px rgb(59, 50, 8);
+    border-radius: 5px;
+    background-color: rgba(236, 197, 20, 0.877);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    padding-bottom: 0.01%;
+    margin-top: 25%;
+
+}
+section div#telaprinciapal {
+    display: block;
+    width: 90%;
+    position: relative;
+    color: rgb(49, 41, 7);
+    box-shadow: 3px 3px 5px rgb(59, 50, 8);
+    border-radius: 5px;
+    background-color: rgba(236, 197, 20, 0.877);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 0.01%;
+    margin-top: 8%;
+
+}
+
+h2{
+    text-align: center;
+}
+
+div.btnvoltar a {
+    position: relative;
+    display: flex;
+    margin-left: 90%;
+    opacity: 0.5;
+} 
+
+ol {
+    list-style: none;
+    color: rgb(3, 119, 221);
+}
+div#segm li{
+    display: inline;
+    position: relative;
+    margin-left: 8%;
+    margin-right: 7%;
+    width: 20%;
+    height: 250px;
+    background-color: #beaa42;
+    border-radius: 3px;
+    
+ }
+
+ div#controladores li{
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    background-color: #665813b9;
+    width: 15%;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+ }
+
+ div#iluminadores li {
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    background-color: #665813b9;
+    width: 20%;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: 2%;
+ }

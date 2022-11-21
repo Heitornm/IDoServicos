@@ -1,0 +1,259 @@
+@charset "UTF-8";
+header {
+    width: 100%;
+    text-align: center;
+    color: rgba(49, 41, 7, 0.548);
+    text-shadow: 1px 1px 1px rgba(250, 207, 14, 0.247);
+}
+
+body{
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    height: auto;
+    background-color: rgba(0, 247, 255, 0.541);
+    background-image: url('trabalhador.png');
+    
+    
+}
+
+
+section h1 {
+    font-weight: bolder;
+    text-align: left;
+    color: #2e2809;
+    text-indent: 3em;
+    text-shadow: 2px 2px 2px rgba(59, 50, 8, 0.8);
+}
+h4 {
+    text-align: right;
+    color: rgb(255, 253, 228);
+    padding-top: 1.5%;
+    padding-right: 12%;
+    padding-left: 12%;
+    text-shadow: 2px 2px 3px rgba(59, 50, 8, 0.747);
+}
+p {
+    text-indent: 40px;
+    text-align: justify;
+    padding: 70px;
+    padding-right: 12%;
+    padding-left: 12%;
+    background-color: rgb(247, 247, 206);
+    text-shadow: 1px 1px 1px solid green;
+    
+}
+
+div#corpo {
+    display: block;
+    margin-left: 1.5%;
+    width: 95%;
+    box-shadow: 3px 3px 5px black;
+    background-color: rgb(243, 239, 176, 0.9);
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.555);
+    font-size: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+nav#menu h1 {
+    text-align: left;
+    vertical-align: auto;
+    padding-top: 10px;
+    margin-bottom: -5px;
+}
+nav#menu ul a{
+    list-style: none;   
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    margin-left: -17%;
+    margin-right: 10%;
+    
+}
+nav#menu li{
+    display: inline-block;
+    position: relative;
+    margin-left: -5px;
+    background-color:  rgba(240, 204, 42, 0.411);
+    padding-left: 1em;
+    padding-right: 1em;
+
+    
+}
+
+nav#menu li:hover {
+    background-color: rgba(221, 217, 161, 0.767);
+    color: rgb(255, 253, 228);
+}
+
+section div#quemsomos {
+    display: block;
+    width: 90%;
+    position: relative;
+    color: rgb(49, 41, 7);
+    box-shadow: 3px 3px 5px rgb(59, 50, 8);
+    border-radius: 5px;
+    background-color: rgba(236, 197, 20, 0.877);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    padding-bottom: 0.01%;
+    margin-top: 25%;
+
+}
+section div#telaprinciapal {
+    display: block;
+    width: 90%;
+    position: relative;
+    color: rgb(49, 41, 7);
+    box-shadow: 3px 3px 5px rgb(59, 50, 8);
+    border-radius: 5px;
+    background-color: rgba(236, 197, 20, 0.877);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 0.01%;
+    margin-top: 8%;
+
+}
+section div#servicos {
+    display: block;
+    width: 90%;
+    margin: 5%;
+    height: auto;
+    position: relative;
+    color: rgb(49, 41, 7);
+    box-shadow: 3px 3px 5px rgb(59, 50, 8);
+    border-radius: 5px;
+    background-color: rgba(236, 197, 20, 0.877);
+}
+div#faleconosco {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    position: relative;
+    color: rgb(49, 41, 7);
+    box-shadow: 3px 3px 5px rgb(59, 50, 8);
+    border-radius: 5px;
+    background-color: rgba(236, 197, 20, 0.877);
+}
+
+nav#serv ul#serv{
+    position: relative;
+    list-style: none;
+    padding-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav#serv li {
+    display: inline-block;
+    position: relative;
+    margin-left: 2em;
+    margin-top: 2em;
+    background-color: rgba(221, 217, 161, 0.8);
+    border-radius: 5px;
+    width: 230px;
+    height: 230px;
+
+}
+img{
+    position: relative;
+    align-self: justify;
+    width: 150px;
+    height: 150px;
+    margin-left:auto ;
+    margin-top: auto;
+
+}
+figcaption h2{
+    position: relative;
+}
+
+input {
+    position: relative;
+    width: 350px;
+    padding: 10px;
+    color: black;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+textarea {
+    width: 350px;
+    padding: 10px;
+    color: black;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #bbbb1cc0;
+    background-color: #cca2488a;
+    color: black;
+    font-weight: bold;
+}
+ 
+.enviar {
+    background-color: rgba(214, 214, 214, 0.877);
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    margin-bottom: 2em;
+    margin-left: 10%;
+}
+ 
+textarea {
+    width: 70%;
+    height: 150px;
+    line-height: 20px;
+    
+}
+ 
+form label {
+    position: absolute;
+    margin-left: 3em;
+    color: #2e2809;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+
+div#faleconosco form {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(247, 247, 206);
+}
+h2{
+    text-align: center;
+}
+
+div.btnvoltar a {
+    position: relative;
+    display: flex;
+    margin-left: 90%;
+    opacity: 0.5;
+} 
+
+nav#serv li:hover {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #f3f33ead;
+    background-color: #575c1667;
+    color: rgba(208, 255, 0, 0.589);
+    font-weight: bold;
+}
