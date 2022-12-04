@@ -1,259 +1,158 @@
 @charset "UTF-8";
-header {
-    width: 100%;
-    text-align: center;
-    color: rgba(49, 41, 7, 0.548);
-    text-shadow: 1px 1px 1px rgba(250, 207, 14, 0.247);
-}
 
-body{
-    width: 100%;
-    position: absolute;
+body {
+    min-width: 580px;
+    max-width: 800px;
+    position: relative;
+    font-family: arial,'Courier New', Courier, monospace;
+    font-size: 1.14em;
     margin: auto;
-    height: auto;
-    background-color: rgba(0, 247, 255, 0.541);
-    background-image: url('trabalhador.png');
-    
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 46, 49, 0.863);
+    background-color: rgb(0, 179, 192);
+}
+main{
+
+    margin-top: -1em;
+    margin-left: auto;
     
 }
+footer {
+    text-align: center;
+    margin-bottom: 1em;
+}
+header{
+    margin: auto;
+}
 
+header h1 {
+    color: rgb(215, 252, 255);
+    text-align: center;
+    background-color: rgba(0, 46, 49, 0.247);
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px rgba(0, 46, 49);
+}
+
+header a {
+    color: rgba(255, 255, 255, 0.863);
+    margin: 0em 1em   ;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 0.5em ;
+    border-radius: 2px;
+}
+
+section{
+    height: auto;
+    width: auto;
+    padding-bottom: 1em; 
+    background-color: rgb(215, 252, 255);
+    margin-bottom: 6em; 
+    border-radius: 5px;
+
+}
 
 section h1 {
-    font-weight: bolder;
-    text-align: left;
-    color: #2e2809;
-    text-indent: 3em;
-    text-shadow: 2px 2px 2px rgba(59, 50, 8, 0.8);
+    position: relative;
+    margin-left: 10%;
+    color: rgb(241, 248, 248);
+    margin-top: -0.6em;
 }
-h4 {
-    text-align: right;
-    color: rgb(255, 253, 228);
-    padding-top: 1.5%;
-    padding-right: 12%;
-    padding-left: 12%;
-    text-shadow: 2px 2px 3px rgba(59, 50, 8, 0.747);
+section h4 {
+    position: relative;
+    padding-top: 2%;
+    margin-left: 80%;
 }
-p {
-    text-indent: 40px;
+
+section p {
+    color: rgb(59, 101, 105);
+    text-indent: 2em;
     text-align: justify;
-    padding: 70px;
-    padding-right: 12%;
-    padding-left: 12%;
-    background-color: rgb(247, 247, 206);
-    text-shadow: 1px 1px 1px solid green;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-bottom: 5em;
+    margin-left: auto;
+    text-shadow: 1px 1px 2px rgb(0, 238, 255);
+    width: 70%;    
     
 }
 
-div#corpo {
-    display: block;
-    margin-left: 1.5%;
-    width: 95%;
-    box-shadow: 3px 3px 5px black;
-    background-color: rgb(243, 239, 176, 0.9);
-    border-radius: 5px;
-}
-footer{
-    text-align: center;
-    color: rgba(0, 0, 0, 0.555);
-    font-size: bold;
+button {
+    position: relative;
+    color: white;
+    opacity: 0.5;
     margin-top: 5%;
-    margin-bottom: 2%;
+    margin-left: 80%;
 }
 
-
-nav#menu h1 {
-    text-align: left;
-    vertical-align: auto;
-    padding-top: 10px;
-    margin-bottom: -5px;
-}
-nav#menu ul a{
-    list-style: none;   
-    text-transform: uppercase;
+nav#serv {
+    width: auto;
+    height: auto;
     position: relative;
-    text-align: center;
-    margin-left: -17%;
-    margin-right: 10%;
-    
+    display: block;
+    columns: 2;
+    margin: 50px;
 }
-nav#menu li{
+ol {
     display: inline-block;
-    position: relative;
-    margin-left: -5px;
-    background-color:  rgba(240, 204, 42, 0.411);
-    padding-left: 1em;
-    padding-right: 1em;
-
-    
-}
-
-nav#menu li:hover {
-    background-color: rgba(221, 217, 161, 0.767);
-    color: rgb(255, 253, 228);
-}
-
-section div#quemsomos {
-    display: block;
-    width: 90%;
-    position: relative;
-    color: rgb(49, 41, 7);
-    box-shadow: 3px 3px 5px rgb(59, 50, 8);
-    border-radius: 5px;
-    background-color: rgba(236, 197, 20, 0.877);
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 20%;
-    padding-bottom: 0.01%;
-    margin-top: 25%;
-
-}
-section div#telaprinciapal {
-    display: block;
-    width: 90%;
-    position: relative;
-    color: rgb(49, 41, 7);
-    box-shadow: 3px 3px 5px rgb(59, 50, 8);
-    border-radius: 5px;
-    background-color: rgba(236, 197, 20, 0.877);
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    padding-bottom: 0.01%;
-    margin-top: 8%;
-
-}
-section div#servicos {
-    display: block;
-    width: 90%;
-    margin: 5%;
-    height: auto;
-    position: relative;
-    color: rgb(49, 41, 7);
-    box-shadow: 3px 3px 5px rgb(59, 50, 8);
-    border-radius: 5px;
-    background-color: rgba(236, 197, 20, 0.877);
-}
-div#faleconosco {
-    width: 90%;
-    height: auto;
-    margin-left: 5%;
-    position: relative;
-    color: rgb(49, 41, 7);
-    box-shadow: 3px 3px 5px rgb(59, 50, 8);
-    border-radius: 5px;
-    background-color: rgba(236, 197, 20, 0.877);
-}
-
-nav#serv ul#serv{
     position: relative;
     list-style: none;
-    padding-bottom: 20%;
-    margin-left: auto;
-    margin-right: auto;
-}
-nav#serv li {
-    display: inline-block;
-    position: relative;
-    margin-left: 2em;
-    margin-top: 2em;
-    background-color: rgba(221, 217, 161, 0.8);
-    border-radius: 5px;
-    width: 230px;
-    height: 230px;
-
-}
-img{
-    position: relative;
-    align-self: justify;
     width: 150px;
     height: 150px;
-    margin-left:auto ;
-    margin-top: auto;
-
-}
-figcaption h2{
-    position: relative;
-}
-
-input {
-    position: relative;
-    width: 50%;
-    padding: 10px;
-    color: black;
-    margin-left: 10%;
-    margin-top: 10px;
-    border-radius: 5px;
-    Margin-right: 5%;
-    border: 1px solid;
-}
-textarea {
-    width: 50%;
-    padding: 10px;
-    color: black;
-    margin-left: 10%;
-    margin-top: 10px;
-    border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid;
-}
- 
-input:hover, textarea:hover, input:focus, textarea:focus {
-    border-color: #000066;
-    box-shadow: 5px 0px 9px #bbbb1cc0;
-    background-color: #cca2488a;
-    color: black;
-    font-weight: bold;
-}
- 
-.enviar {
-    background-color: rgba(214, 214, 214, 0.877);
-    height: 40px;
-    width: 100px;
-    font-weight: bold;
-    border-radius: 5px;
-    border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid;
-    color: black;
-    margin-bottom: 2em;
-    margin-left: 10%;
-}
- 
-textarea {
-    width: 70%;
-    height: 150px;
-    line-height: 20px;
     
 }
- 
-form label {
-    position: absolute;
-    margin-left: 3em;
-    color: #2e2809;
-    font-weight: bold;
-    margin-top: 1.5em;
+
+li {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+figure{
+    position: relative;
+    width: 170px;
+    background-color: rgba(0, 238, 255, 0.329);
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 0.001em;
 }
 
-div#faleconosco form {
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: rgb(247, 247, 206);
-}
-h2{
+figcaption h1{
+    position: relative;
     text-align: center;
 }
 
-div.btnvoltar a {
+img{
     position: relative;
-    display: flex;
-    margin-left: 90%;
-    opacity: 0.5;
-} 
+    margin: 1em;
+    width: 90px;
+    height: 90px;
+}
 
-nav#serv li:hover {
-    border-color: #000066;
-    box-shadow: 5px 0px 9px #f3f33ead;
-    background-color: #575c1667;
-    color: rgba(208, 255, 0, 0.589);
-    font-weight: bold;
+form{
+    position: relative;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+input#foneid {
+    width: 45%;
+    margin-left: 1.4em;
+}
+input#nomeid{
+    width: 45%;
+    margin-left: 1em;
+}
+input#emailid {
+    width: 45%;
+    margin-left: 1.2em;
+}
+textarea {
+    width: 70%;
+    height: 10em;
+    margin-left: 4.2em;
+}
+input.enviar {
+    margin-top: 1em;
+    margin-left: 45%;
 }
