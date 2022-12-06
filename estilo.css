@@ -6,7 +6,6 @@ html{
 }
 
 body {
-    
     width: 80%;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
@@ -21,7 +20,8 @@ main{
     margin-top: -1em;
     margin-right: auto;
     margin-left: auto;
-    
+    min-width: 360px;
+    max-width: 860px;
 }
 footer {
     width: 95%;
