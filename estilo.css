@@ -1,12 +1,13 @@
 @charset "UTF-8";
 html{
-    width: 99vh;
+    
+    min-width: 480px;
+    max-width: 1200px;
 }
 
 body {
     
-    min-width: 480px;
-    max-width: 1200px;
+    width: 99vh;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
