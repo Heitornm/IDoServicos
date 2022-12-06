@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 body {
-    min-width: 480px;
-    max-width: 800px;
+    width: 100vh;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
@@ -12,7 +11,6 @@ body {
     background-color: rgb(0, 179, 192);
 }
 main{
-    width: 98vh;
     margin-top: -1em;
     margin-left: auto;
     
