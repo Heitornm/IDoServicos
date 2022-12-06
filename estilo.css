@@ -5,7 +5,7 @@ html{
 
 body {
     width: 95%;
-    min-width: 350px;
+    min-width: 480px;
     max-width: 1200px;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
