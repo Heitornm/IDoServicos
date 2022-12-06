@@ -4,6 +4,7 @@ html{
 }
 
 body {
+    width: 98%;
     min-width: 350px;
     max-width: 800px;
     position: relative;
