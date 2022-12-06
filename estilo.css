@@ -1,7 +1,11 @@
 @charset "UTF-8";
+html{
+    width: 100vh;
+}
 
 body {
-    width: 100vh;
+    min-width: 350px;
+    max-width: 800px;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
