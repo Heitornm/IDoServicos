@@ -16,19 +16,19 @@ body {
     background-color: rgb(0, 179, 192);
 }
 main{
-    width: 90%;
+    width: 95%;
     margin-top: -1em;
     margin-right: auto;
     margin-left: auto;
     
 }
 footer {
-    width: 90%;
+    width: 95%;
     text-align: center;
     margin-bottom: 1em;
 }
 header{
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -53,7 +53,7 @@ header a {
 
 section{
     height: auto;
-    width: 90%;
+    width: 95%;
     padding-bottom: 1em; 
     background-color: rgb(215, 252, 255);
     margin-bottom: 6em; 
