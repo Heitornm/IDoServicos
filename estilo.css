@@ -1,6 +1,6 @@
 @charset "UTF-8";
 html{
-    width: 90vh;
+    width: 99vh;
     min-width: 480px;
     max-width: 850px;
 }
@@ -97,8 +97,7 @@ button {
 }
 
 nav#serv {
-    width: auto;
-    height: auto;
+    
     position: relative;
     display: block;
     columns: 2;
