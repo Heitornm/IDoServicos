@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    width: 95%;
+    width: 85%;
     min-width: 350px;
     max-width: 1200px;
     position: relative;
@@ -16,19 +16,19 @@ body {
     background-color: rgb(0, 179, 192);
 }
 main{
-    width: 95%;
+    width: 90%;
     margin-top: -1em;
     margin-right: auto;
     margin-left: auto;
     
 }
 footer {
-    width: 95%;
+    width: 90%;
     text-align: center;
     margin-bottom: 1em;
 }
 header{
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
