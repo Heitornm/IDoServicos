@@ -8,7 +8,7 @@ html {
 body {
     width: 98%;
     min-width: 590px;
-    max-width: 1250px;
+    max-width: 1000px;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
@@ -22,6 +22,7 @@ main{
     width: 98%;
     margin-top: 0em;
     margin: auto;
+    font-size: 1.2em;
     
 }
 
@@ -63,6 +64,7 @@ section{
     background-color: rgb(215, 252, 255);
     margin-bottom: 6em; 
     border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(230, 24, 230);
 
 }
 
@@ -74,6 +76,7 @@ section h1 {
 }
 section h4 {
     position: relative;
+    margin-top: 0px;
     padding-top: 2%;
     margin-left: 80%;
 }
@@ -100,10 +103,11 @@ button {
 }
 
 nav#serv {
-    
+    width: 40vh;
+    height: auto;
     position: relative;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 nav#serv > ul{
@@ -126,6 +130,7 @@ li {
     display: inline-block;
     position: relative;
     text-decoration: none;
+
 }
 li:hover {
     
@@ -146,7 +151,8 @@ figure{
 
 figcaption h1{
     position: relative;
-    text-align: center;
+    margin: auto;
+    font-size: 0.89em;
 }
 
 img{
@@ -161,31 +167,36 @@ form{
     margin-left: 8%;
     margin-top: 5%;
 }
+label {
+    font-size: 0.7em;
+}
 input#foneid {
     width: 45%;
-    margin-left: 1.4em;
+    margin-left: 5em;
 }
 input#nomeid{
     width: 45%;
-    margin-left: 1em;
+    margin-left: 5em;
 }
 input#emailid {
     width: 45%;
-    margin-left: 1.2em;
+    margin-left: 5em;
 }
 textarea {
     width: 70%;
     height: 10em;
-    margin-left: 4.2em;
+    margin-left: 5em;
 }
 input.enviar {
     margin-top: 1em;
-    margin-left: 45%;
+    margin-left: 70%;
 }
 
 div#servicos {
     position: relative;
-    margin-left: 8%;
+    display: block;
+    margin-left: 2em;
+    margin-right: 2em;
     columns: 2;
   
 }
