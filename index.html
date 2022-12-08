@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I&nbsp; Do &nbsp; Serviços</title>
     <link rel="stylesheet" href="estilo.css">
-
+    
+   
 </head>
 <body>
     <header>
@@ -153,18 +154,18 @@
             <h4>I Do Serviços</h4>
             <h1>Entre em contato</h1>
             <span>
-                <form method="post" name="meu_form"action="envio_dados.php">
+                <form method="post" name="form-ido"action="formulario.php">
                     <label for="nome">Nome</label>
+                    <br>
                     <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
                 <br />
-                <br />
                     <label for="fone">Telefone</label>
+                    <br>
                     <input type="tel" id="foneid" placeholder="Digite seu telefone" name="fone" />
                 <br />
-                <br />
                     <label for="email">Email</label>
+                    <br>
                     <input type="email" id="emailid" placeholder="Digite seu email" name="email" />
-                <br />
                 <br />
                     <label for="Mensagem">Mensagem</label>
                 <br />
@@ -174,7 +175,7 @@
                     <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" /> 
                 </form>
             </span>
-            <button class="btnvoltar">
+            <button class="btnvoltar" >
                 <a href="index.html">voltar ao início</a>
             </button>    
         </section>
