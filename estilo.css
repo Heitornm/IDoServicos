@@ -169,13 +169,12 @@ li {
     position: relative;
     text-decoration: none;
     margin: 1em 2em;
-    scale: 0.7;
+    scale: 0.5;
 }
 li:hover {
-    scale: 1.4;
+    scale: 1.45;
     opacity: 0.9;
     transition: 0.8s;
-    border: 1px solid black;
 }
 
 figure{
