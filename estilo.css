@@ -149,16 +149,16 @@ nav#serv {
 
 nav#serv > ul{
     position: relative;
-    padding: 0px;
+    padding: 0px;   
     display: block;
     margin: 0px;
-    width: 200px;
+    width: 130px;
 }
-ol {
+    ol {
     position: relative;
     list-style: none;
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
     text-decoration: none;
     
     
@@ -168,13 +168,13 @@ li {
     display: inline-block;
     position: relative;
     text-decoration: none;
-
+    margin: 1em 2em;
 }
 li:hover {
     scale: 1.4;
     opacity: 0.9;
     transition: 0.8s;
-    
+    border: 1px solid black;
 }
 
 figure{
@@ -184,7 +184,7 @@ figure{
     border-radius: 5px;
     text-align: center;
     padding-bottom: 0.001em;
-    margin: 1em;
+    margin: 0em;
 }
 
 figcaption h1{
