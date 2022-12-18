@@ -154,13 +154,13 @@ nav#serv > ul{
     margin: 0px;
     width: 130px;
 }
-    ol {
+ol {
     position: relative;
     list-style: none;
     width: 90px;
     height: 90px;
     text-decoration: none;
-    
+    scale: 0.9;
     
 }
 
@@ -169,6 +169,7 @@ li {
     position: relative;
     text-decoration: none;
     margin: 1em 2em;
+    scale: 0.7;
 }
 li:hover {
     scale: 1.4;
@@ -179,12 +180,13 @@ li:hover {
 
 figure{
     position: relative;
-    width: 160px;
+    width: 150px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     text-align: center;
     padding-bottom: 0.001em;
     margin: 0em;
+    scale: 1.2;
 }
 
 figcaption h1{
