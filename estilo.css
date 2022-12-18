@@ -8,9 +8,9 @@ html {
 }
 
 body {
-    width: 75%;
+    width: 100vh;
     min-width: 240px;
-    max-width: 780px;
+    max-width: 1200px;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
@@ -20,14 +20,13 @@ body {
     text-shadow: 1px 1px 6px rgba(0, 46, 49, 0.863);
     background-color: black;
     line-height: 1.88em;
-
 }
 main{
+    position: relative;    
     width: 95%;
     margin-top: 0em;
     margin: auto;
     font-size: 1.2em;
-    position: relative;    
 }
 
 header{
