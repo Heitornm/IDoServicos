@@ -1,35 +1,36 @@
 @charset "UTF-8";
 
 html {
-    width: 70%;
-    min-width: 250px;
+    width: 80%;
+    min-width: 295px;
     max-width: 800px;
     scroll-behavior: smooth;
 }
 
 body {
-    width: 100%;
+    width: 99.5%;
     min-width: 240px;
     max-width: 1200px;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
-    margin-left: 20%;
+    margin-left: 3em;
+    margin-right: 3em;
     color: white;
-    text-shadow: 1px 1px 6px rgba(0, 46, 49, 0.863);
+    text-shadow: 1px 1px 6px black;
     background-color: black;
     line-height: 1.88em;
 }
 main{
+    width: 100%;
     position: relative;    
     margin-top: 0em;
-    margin: auto;
     font-size: 1.2em;
 }
 
 header{
+    width: 100%;
     position: relative;
-    margin: auto;
 }
 
 div#imgmain {
@@ -79,8 +80,7 @@ header h1 {
     text-shadow: 1px 1px 1px rgba(0, 46, 49);
 }
 nav#menu {
-    margin: auto;
-    
+    width: 100%;    
 }
 header a {
     color: white;
@@ -233,12 +233,13 @@ input.enviar {
 div#servicos {
     position: relative;
     display: block;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 0px;
+    margin-right: 0px;
     columns: 2;
   
 }
 footer {
+    width: 100%;
     text-align: center;
     text-decoration: none;
     margin-bottom: 1em;
