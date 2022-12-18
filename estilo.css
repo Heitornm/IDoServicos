@@ -168,7 +168,7 @@ li {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    margin: 0em;
+    margin: 0em 0em 2em 1em;
     scale: 0.8;
 }
 li:hover {
@@ -234,11 +234,12 @@ input.enviar {
 div#servicos {
     position: relative;
     display: block;
-    margin-left: 0px;
-    margin-right: 0px;
     columns: 2;
-    
   
+}
+div {
+    margin: 0em 1em 3em 1em;
+
 }
 footer {
     width: 100%;
