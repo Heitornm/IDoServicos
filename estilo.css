@@ -144,15 +144,15 @@ nav#serv {
     width: 40vh;
     height: auto;
     position: relative;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: auto;
 }
 
 nav#serv > ul{
     position: relative;
-    margin: 0px;
     padding: 0px;
     display: block;
+    margin: 0px;
+    width: 200px;
 }
 ol {
     position: relative;
@@ -171,8 +171,7 @@ li {
 
 }
 li:hover {
-    
-    scale: 1.3;
+    scale: 1.4;
     opacity: 0.9;
     transition: 0.8s;
     
@@ -180,11 +179,12 @@ li:hover {
 
 figure{
     position: relative;
-    width: 170px;
+    width: 160px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     text-align: center;
     padding-bottom: 0.001em;
+    margin: 1em;
 }
 
 figcaption h1{
@@ -236,6 +236,7 @@ div#servicos {
     margin-left: 0px;
     margin-right: 0px;
     columns: 2;
+    
   
 }
 footer {
