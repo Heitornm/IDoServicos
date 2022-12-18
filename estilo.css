@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    width: 70%;
-    min-width: 590px;
+    width: 75%;
+    min-width: 390px;
     max-width: 1000px;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
@@ -19,9 +19,10 @@ body {
     text-shadow: 1px 1px 6px rgba(0, 46, 49, 0.863);
     background-color: black;
     line-height: 1.88em;
+
 }
 main{
-    width: 98%;
+    width: 95%;
     margin-top: 0em;
     margin: auto;
     font-size: 1.2em;
