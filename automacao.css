@@ -1,174 +1,173 @@
 @charset "UTF-8";
-header {
+
+html {
+    width: 80%;
+    min-width: 295px;
+    max-width: 800px;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 99.5%;
+    min-width: 240px;
+    max-width: 1200px;
+    position: relative;
+    font-family: arial,'Courier New', Courier, monospace;
+    font-size: 1.14em;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+    background-color: black;
+    line-height: 1.88em;
+}
+main{
     width: 100%;
+    position: relative;    
+    margin-top: 0em;
+    font-size: 1.2em;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+div#imgmain {
+    position: relative;
+    background-image: url("fundomain.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+div#imgquemsomos {
+    position: relative;
+    background-image: url("fundoquemsomos.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#imgservicos {
+    position: relative;
+    background-image: url("fundoservicos.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#imgfconosco {
+    position: relative;
+    background-image: url("fundofconosco.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: white;
     text-align: center;
-    color: rgba(49, 41, 7, 0.548);
-    text-shadow: 1px 1px 1px rgba(250, 207, 14, 0.247);
+    background-color: rgba(9, 92, 131, 0.5);
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px rgba(0, 46, 49);
+}
+nav#menu {
+    width: 100%;    
+}
+header a {
+    color: white;
+    margin: 0em 0.5em   ;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0em 1em ;
+    border-radius: 2px;
 }
 
-body{
-    width: 100%;
-    position: absolute;
-    margin: auto;
+section{
     height: auto;
-    background-color: rgba(0, 247, 255, 0.541);
-    background-image: url('trabalhador.png');
-    
-    
-}
+    width: auto;
+    padding-bottom: 1em; 
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 0.5em; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(32, 139, 201, 0.733);
 
+}
 
 section h1 {
-    font-weight: bolder;
-    text-align: left;
-    color: #2e2809;
-    text-indent: 3em;
-    text-shadow: 2px 2px 2px rgba(59, 50, 8, 0.8);
+    position: relative;
+    margin-left: 10%;
+    color: white;
+    margin-top: -0.6em;
 }
-h4 {
-    text-align: right;
-    color: rgb(255, 253, 228);
-    padding-top: 1.5%;
-    padding-right: 12%;
-    padding-left: 12%;
-    text-shadow: 2px 2px 3px rgba(59, 50, 8, 0.747);
+section h4 {
+    position: relative;
+    margin-top: 0px;
+    padding-top: 2%;
+    margin-left: 70%;
+    color: white;
 }
-p {
-    text-indent: 40px;
+
+section p {
+    color: white;
+    text-indent: 2em;
     text-align: justify;
-    padding: 70px;
-    padding-right: 12%;
-    padding-left: 12%;
-    background-color: rgb(247, 247, 206);
-    text-shadow: 1px 1px 1px solid green;
-    
-}
-
-div#corpo {
-    display: block;
-    margin-left: 1.5%;
-    width: 97%;
-    box-shadow: 3px 3px 5px black;
-    background-color: rgb(243, 239, 176, 0.9);
+    margin-top: 1em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+    text-shadow: 0px 0px 10px black;
+    width: 70%;    
+    background-color: rgba(255, 255, 255, 0.26);
     border-radius: 5px;
-}
-footer{
-    text-align: center;
-    color: rgba(0, 0, 0, 0.555);
-    font-size: bold;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    padding: 1em;
 }
 
-
-nav#menu h1 {
-    text-align: left;
-    vertical-align: auto;
-    padding-top: 10px;
-    margin-bottom: -5px;
-}
-nav#menu ul a{
-    list-style: none;   
-    text-transform: uppercase;
+button {
     position: relative;
-    text-align: center;
-    margin-left: -17%;
-    margin-right: 10%;
-    
+    color: white;
+    opacity: 0.7;
+    margin-top: 0.3em;
+    margin-left: 80%;
+    scroll-behavior: smooth;
 }
-nav#menu li{
-    display: inline-block;
-    position: relative;
-    margin-left: -5px;
-    background-color:  rgba(240, 204, 42, 0.411);
-    padding-left: 1em;
-    padding-right: 1em;
-
-    
-}
-
-nav#menu li:hover {
-    background-color: rgba(221, 217, 161, 0.767);
-    color: rgb(255, 253, 228);
-}
-
-section div#quemsomos {
-    display: block;
-    width: 90%;
-    position: relative;
-    color: rgb(49, 41, 7);
-    box-shadow: 3px 3px 5px rgb(59, 50, 8);
-    border-radius: 5px;
-    background-color: rgba(236, 197, 20, 0.877);
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 20%;
-    padding-bottom: 0.01%;
-    margin-top: 25%;
-
-}
-section div#telaprinciapal {
-    display: block;
-    width: 90%;
-    position: relative;
-    color: rgb(49, 41, 7);
-    box-shadow: 3px 3px 5px rgb(59, 50, 8);
-    border-radius: 5px;
-    background-color: rgba(236, 197, 20, 0.877);
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    padding-bottom: 0.01%;
-    margin-top: 8%;
-
-}
-
-h2{
-    text-align: center;
-}
-
-div.btnvoltar a {
-    position: relative;
-    display: flex;
-    margin-left: 90%;
-    opacity: 0.5;
-} 
 
 ol {
+    position: relative;
     list-style: none;
-    color: rgb(3, 119, 221);
+    text-decoration: none;
+    scale: 0.9;
+    columns: 2;
+    margin: 1em 3em;
 }
-div#segm li{
-    display: inline;
+
+li {
+    display: block;
     position: relative;
-    margin-left: 8%;
-    margin-right: 7%;
-    width: 20%;
-    height: 250px;
-    background-color: #beaa42;
-    border-radius: 3px;
+    text-decoration: none;
+    margin: 0em -2em 0em 2em;
+    padding: 1em 1em 1em 1em ;
+    scale: 0.8;
     
- }
+}
 
- div#controladores li{
-    display: inline-block;
-    position: relative;
-    border-radius: 3px;
-    background-color: #665813b9;
-    width: 15%;
-    height: 200px;
-    margin-left: 2%;
-    margin-right: 2%;
+div {
+    margin: 0em 1em 2em 1em;
 
- }
-
- div#iluminadores li {
-    display: inline-block;
-    position: relative;
-    border-radius: 3px;
-    background-color: #665813b9;
-    width: 20%;
-    height: 200px;
-    margin-left: 2%;
-    margin-right: 2%;
- }
+}
+footer {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1em;
+    margin-top: -2em;
+    
+}
