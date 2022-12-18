@@ -3,10 +3,12 @@
 html {
     min-height: 100vh;
     min-width: 100vh;
+    scroll-behavior: smooth;
+
 }
 
 body {
-    width: 98%;
+    width: 70%;
     min-width: 590px;
     max-width: 1000px;
     position: relative;
@@ -15,7 +17,7 @@ body {
     margin: auto;
     color: white;
     text-shadow: 1px 1px 6px rgba(0, 46, 49, 0.863);
-    background-color: rgb(11, 114, 155);
+    background-color: black;
     line-height: 1.88em;
 }
 main{
@@ -23,7 +25,7 @@ main{
     margin-top: 0em;
     margin: auto;
     font-size: 1.2em;
-    
+    position: relative;    
 }
 
 header{
@@ -31,12 +33,20 @@ header{
     margin: auto;
 }
 
+div#imgmain {
+    position: relative;
+    background-image: url("fundomain.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
 a {
     text-decoration: none;
 }
 
 header h1 {
-    color: rgb(215, 252, 255);
+    color: white;
     text-align: center;
     background-color: rgba(9, 92, 131, 0.5);
     margin-right: 30%;
@@ -49,10 +59,10 @@ nav#menu {
     
 }
 header a {
-    color: rgba(255, 255, 255, 0.863);
+    color: white;
     margin: 0em 0.5em   ;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.329);
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 0em 1em ;
     border-radius: 2px;
 }
@@ -61,7 +71,7 @@ section{
     height: auto;
     width: auto;
     padding-bottom: 1em; 
-    background-color: rgb(215, 252, 255);
+    background-color: rgba(255, 255, 255, 0.2);
     margin-bottom: 6em; 
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(230, 24, 230);
@@ -71,25 +81,26 @@ section{
 section h1 {
     position: relative;
     margin-left: 10%;
-    color: rgb(241, 248, 248);
+    color: white;
     margin-top: -0.6em;
 }
 section h4 {
     position: relative;
     margin-top: 0px;
     padding-top: 2%;
-    margin-left: 80%;
+    margin-left: 70%;
+    color: white;
 }
 
 section p {
-    color: rgb(59, 101, 105);
+    color: white;
     text-indent: 2em;
     text-align: justify;
     margin-top: 2em;
     margin-right: auto;
     margin-bottom: 5em;
     margin-left: auto;
-    text-shadow: 1px 1px 2px rgb(0, 238, 255);
+    text-shadow: 0px 0px 2px black;
     width: 70%;    
     
 }
