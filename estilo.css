@@ -168,7 +168,7 @@ li {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    margin: 1em 2em;
+    margin: 1em 0em;
     scale: 0.7;
 }
 li:hover {
