@@ -8,14 +8,13 @@ html {
 }
 
 body {
-    width: 100vh;
+    width: 100%;
     min-width: 240px;
     max-width: 1200px;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 13%;
     color: white;
     text-shadow: 1px 1px 6px rgba(0, 46, 49, 0.863);
     background-color: black;
@@ -23,7 +22,6 @@ body {
 }
 main{
     position: relative;    
-    width: 95%;
     margin-top: 0em;
     margin: auto;
     font-size: 1.2em;
