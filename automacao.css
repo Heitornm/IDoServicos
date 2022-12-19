@@ -147,6 +147,7 @@ ol {
     scale: 0.9;
     columns: 2;
     margin: 1em 3em;
+    width: auto;
 }
 
 li {
@@ -156,7 +157,7 @@ li {
     margin: 0em -2em 0em 2em;
     padding: 1em 1em 1em 1em ;
     scale: 0.8;
-    
+        
 }
 
 div {
