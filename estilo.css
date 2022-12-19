@@ -19,7 +19,7 @@ body {
 }
 
 main{
-    width: 95%;
+    width: 99vh;
     display: block;
     position: relative;    
     margin: auto;
