@@ -78,7 +78,7 @@ header h1 {
 }
 
 nav#menu {
-    width: 80%;
+    width: auto;
     display: block;
     margin-left: 13%;    
 }
