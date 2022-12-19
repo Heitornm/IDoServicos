@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 html {
-    min-width: 490px;
+    min-width: 530px;
     max-width: 980px;
     scroll-behavior: smooth;
 }
@@ -153,8 +153,8 @@ nav#serv ul{
     position: relative;
     padding: 0px;   
     display: block;
-    margin: auto;
-    width: 130px;
+    margin: inherit;
+    width: 154px;
 }
 ol {
     display: block;
@@ -249,7 +249,8 @@ div#servicos {
 }
 
 div {
-    margin: 0em 1em 3em 1em;
+    margin: 0px;
+    padding: 0px;
 
 }
 
