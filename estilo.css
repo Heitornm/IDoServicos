@@ -84,6 +84,7 @@ nav#menu {
 }
 
 header a {
+    width: 100%;
     color: white;
     margin: 0em 0.5em   ;
     text-decoration: none;
