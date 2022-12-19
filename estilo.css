@@ -1,30 +1,28 @@
 @charset "UTF-8";
 
 html {
-    width: 90%;
-    min-width: 350Spx;
-    max-width: 800px;
+    min-width: 490px;
+    max-width: 980px;
     scroll-behavior: smooth;
 }
 
 body {
-    width: 100%;
-    min-width: 240px;
-    max-width: 1200px;
+    display: block;
+    margin: auto;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
-    margin-left: 3em;
-    margin-right: 3em;
     color: white;
     text-shadow: 1px 1px 6px black;
     background-color: black;
     line-height: 1.88em;
 }
+
 main{
-    width: 100%;
+    width: 78%;
+    display: block;
     position: relative;    
-    margin-top: 0em;
+    margin: auto;
     font-size: 1.2em;
 }
 
@@ -48,6 +46,7 @@ div#imgquemsomos {
     background-size: cover;
     background-attachment: fixed;
 }
+
 div#imgservicos {
     position: relative;
     background-image: url("fundoservicos.webp");
@@ -64,8 +63,6 @@ div#imgfconosco {
     background-attachment: fixed;
 }
 
-
-
 a {
     text-decoration: none;
 }
@@ -79,9 +76,13 @@ header h1 {
     border-radius: 3px;
     text-shadow: 1px 1px 1px rgba(0, 46, 49);
 }
+
 nav#menu {
-    width: 100%;    
+    width: 100%;
+    display: block;
+    margin-left: 13%;    
 }
+
 header a {
     color: white;
     margin: 0em 0.5em   ;
@@ -98,8 +99,7 @@ section{
     background-color: rgba(255, 255, 255, 0.2);
     margin-bottom: 0.5em; 
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(32, 139, 201, 0.733);
-
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.767);
 }
 
 section h1 {
@@ -108,6 +108,7 @@ section h1 {
     color: white;
     margin-top: -0.6em;
 }
+
 section h4 {
     position: relative;
     margin-top: 0px;
@@ -124,9 +125,9 @@ section p {
     margin-right: auto;
     margin-bottom: 2em;
     margin-left: auto;
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 7px white;
     width: 70%;    
-    background-color: rgba(255, 255, 255, 0.26);
+    background-color: rgba( 0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 1em;
 }
@@ -141,36 +142,38 @@ button {
 }
 
 nav#serv {
-    width: 40vh;
+    width: auto;
+    display: block;
     height: auto;
     position: relative;
     margin: auto;
 }
 
-nav#serv > ul{
+nav#serv ul{
     position: relative;
     padding: 0px;   
     display: block;
-    margin: 0px;
+    margin: auto;
     width: 130px;
 }
 ol {
+    display: block;
     position: relative;
     list-style: none;
     width: 90px;
     height: 90px;
     text-decoration: none;
     scale: 0.9;
-    
 }
 
 li {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    margin: 0em 0em 2em 1em;
+    margin: auto;
     scale: 0.8;
 }
+
 li:hover {
     scale: 1.45;
     opacity: 0.9;
@@ -180,10 +183,10 @@ li:hover {
 figure{
     position: relative;
     width: 150px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     text-align: center;
-    padding-bottom: 0.001em;
+    padding-bottom: 0.1em;
     margin: 0em;
     scale: 1.2;
 }
@@ -206,26 +209,32 @@ form{
     margin-left: 8%;
     margin-top: 5%;
 }
+
 label {
     font-size: 0.7em;
 }
+
 input#foneid {
     width: 45%;
     margin-left: 5em;
 }
+
 input#nomeid{
     width: 45%;
     margin-left: 5em;
 }
+
 input#emailid {
     width: 45%;
     margin-left: 5em;
 }
+
 textarea {
     width: 70%;
     height: 10em;
     margin-left: 5em;
 }
+
 input.enviar {
     margin-top: 1em;
     margin-left: 70%;
@@ -235,12 +244,15 @@ div#servicos {
     position: relative;
     display: block;
     columns: 2;
+    margin: auto;
   
 }
+
 div {
     margin: 0em 1em 3em 1em;
 
 }
+
 footer {
     width: 100%;
     text-align: center;
