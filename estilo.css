@@ -1,17 +1,20 @@
 @charsret "UTF-8";
 
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
 html {
+    min-width: 90vw;
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 body {
-    width: 100vh;
+    max-width: 790px;
+    min-width: 350px;
     display: block;
-    margin: auto;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
     font-size: 1.14em;
@@ -19,19 +22,17 @@ body {
     text-shadow: 1px 1px 6px black;
     background-color: black;
     line-height: 1.88em;
+    margin: auto;
 }
 
 main{
-    max-width: 1000px;
-    min-width: 400px;
     display: block;
     position: relative;    
-    margin: auto;
     font-size: 1.2em;
 }
 
 header{
-    width: 100%;
+    width: auto;
     position: relative;
 }
 
