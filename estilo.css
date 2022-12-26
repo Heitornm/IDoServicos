@@ -124,17 +124,18 @@ section h4 {
 
 section p {
     color: white;
+    font-family: 'Times New Roman', Times, serif, monospace;
     text-indent: 2em;
     text-align: justify;
     margin-top: 1em;
     margin-right: auto;
     margin-bottom: 2em;
     margin-left: auto;
-    text-shadow: 0px 0px 7px white;
+    text-shadow: 0px 0px 2px white;
     width: 70%;    
-    background-color: rgba( 0, 0, 0, 0.5);
+    background-color: rgba( 0, 0, 0, 0.75);
     border-radius: 5px;
-    padding: 1em;
+    padding: 2em;
 }
 
 button {
@@ -144,16 +145,14 @@ button {
     margin-top: 0.3em;
     margin-left: 80%;
     border-radius: 200px;
-    scroll-behavior: smooth;
 }
 
-button :hover {
+button:hover {
     background-color: gray;
     position: relative;
     color: white;
     opacity: 0.7;
     border-radius: 200px;
-    scroll-behavior: smooth;
 }
 
 nav#serv {
