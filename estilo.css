@@ -25,16 +25,17 @@ body {
     margin: auto;
 }
 
+header{
+    display: block;
+    position: relative;
+}
+
 main{
     display: block;
     position: relative;    
     font-size: 1.2em;
 }
 
-header{
-    width: auto;
-    position: relative;
-}
 
 div#imgmain {
     position: relative;
@@ -82,18 +83,17 @@ header h1 {
 }
 
 nav#menu {
-    width: 100%;
     display: block;
-    margin-left: 13%;    
+    position: relative;
 }
 
 header a {
-    width: auto;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
     color: white;
-    margin: 0em 0.5em;
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
-    padding: 0em 1em ;
     border-radius: 200px;
 }
 
