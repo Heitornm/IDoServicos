@@ -6,22 +6,23 @@
 }
 
 html {
-    min-width: 90vw;
+    min-width: 85vw;
     scroll-behavior: smooth;
     background-color: black;
 }
 
 body {
-    max-width: 790px;
+    max-width: 890px;
     min-width: 350px;
     display: block;
     position: relative;
     font-family: arial,'Courier New', Courier, monospace;
-    font-size: 1.14em;
+    font-size: 1.1em;
     color: white;
     text-shadow: 1px 1px 6px black;
     background-color: black;
-    line-height: 1.88em;
+    line-height: 2em;
+    letter-spacing: 4px;
     margin: auto;
 }
 
