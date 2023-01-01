@@ -6,13 +6,13 @@
 }
 
 html {
-    min-width: 90vw;
+    min-width: 100vw;
     scroll-behavior: smooth;
     background-color: black;
 }
 
 body {
-    max-width: 790px;
+    max-width: 890px;
     min-width: 350px;
     display: block;
     position: relative;
@@ -49,11 +49,6 @@ header h1 {
     text-shadow: 1px 1px 1px rgba(0, 46, 49);
 }
 
-nav#menu {
-    display: block;
-    position: relative;
-}
-
 header a {
     display: inline-block;
     margin: 5px;
@@ -65,8 +60,6 @@ header a {
 }
 
 section{
-    height: auto;
-    width: auto;
     padding-bottom: 1em; 
     background-color: rgba(255, 255, 255);
     margin-bottom: 1em; 
@@ -75,7 +68,26 @@ section{
     background-image: url('atmsec.webp');    
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left center;
     background-attachment: fixed;
+}
+
+nav {
+    position: relative;
+    list-style: none;
+}
+
+ol {
+    position: relative;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    width: auto;
+    padding: 1em;
 }
 
 section.imgmain {
@@ -83,6 +95,7 @@ section.imgmain {
     background-image: url('automacaomain.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center bottom;
     background-attachment: fixed;
 }
 
